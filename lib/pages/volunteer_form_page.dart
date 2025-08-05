@@ -42,7 +42,7 @@ class _VolunteerFormPageState extends State<VolunteerFormPage> {
     return Scaffold(
       backgroundColor: lightBg,
       appBar: AppBar(
-        title: const Text("Volunteer Form",style: TextStyle(fontSize: 16, color: Colors.white),),
+        title: const Text("Volunteer Form",style: TextStyle(fontSize: 16, color: Colors.white,fontWeight: FontWeight.bold),),
         backgroundColor: themeColor,
         centerTitle: true,
         elevation: 2,
